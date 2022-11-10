@@ -28,8 +28,7 @@ async function main() {
       return user;
     }
   });
-  console.log(res);
   console.log(count);
-  console.log(res[count]);
+  console.log(res[210]);
 }
 main();

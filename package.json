@@ -1,0 +1,27 @@
+{
+  "name": "pseudocodigo",
+  "version": "1.0.0",
+  "description": "## estructura de carpetas",
+  "main": "index.js",
+  "scripts": {
+    "challenge01": "nodemon ./challenge01/js/main.js",
+    "py01": "python3 ./challenge01/py/main.py"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CAMILOITT/codember.git"
+  },
+  "keywords": [],
+  "author": {
+    "name": "Camilo Torres",
+    "email": "camilocamilo5@outlook.com"
+  },
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/CAMILOITT/codember/issues"
+  },
+  "homepage": "https://github.com/CAMILOITT/codember#readme",
+  "devDependencies": {
+    "nodemon": "^2.0.20"
+  }
+}
