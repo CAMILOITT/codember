@@ -15,6 +15,8 @@
 
 ## Soluciones de otros usuarios
 
-<div style="border:1px solid; padding:10px 20px;" >
+<ul style="border:1px solid; padding:10px 20px;" >
+
 - [Atticus64](https://github.com/Atticus64/codember) [JavaScript, tal ves Rust]
-</div>
+
+</ul>
