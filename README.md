@@ -1,12 +1,14 @@
-# codember
+# CODEMBER
 
 ## estructura de carpetas
 
 ```
 .
 ├── challenge01
-│  ├── js
-│  │  └── main.js
-│  └── explication.md
+│  ├── main.js
+│  └── README.md
+├── .gitignore
+├── package-lock.json
+├── package.json
 └── README.md
 ```

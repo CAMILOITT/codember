@@ -21,14 +21,11 @@ async function main() {
     union.push(Object.fromEntries(agrupar));
     agrupar = [];
   }
-  let count = 0;
-  const res = union.map((user) => {
+  const res = union.filter((user) => {
     if (user.usr && user.psw && user.eme && user.age && user.loc && user.fll) {
-      count++;
       return user;
     }
   });
-  console.log(count);
-  console.log(res[210]);
+  console.log(`submit ${res.length}${res[res.length - 1].usr}`);
 }
 main();
